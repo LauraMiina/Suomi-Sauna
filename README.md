@@ -1,2 +1,2 @@
-# SuomiSauna
- Website with graphics about Finnish sauna customs
+# Suomi Sauna
+ Website with graphics about Finnish sauna customs.
