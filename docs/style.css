@@ -1,4 +1,37 @@
 
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 700px;
+  width: 100%;
+  padding: 0px; 
+  margin-top: 0px;
+}
+
+.header-image {
+width: 120%;
+display: block;
+margin: 0 auto 0 -10%;
+padding: 0;
+}
+
+p {
+font-family: "Inter", sans-serif;
+font-size: 16px;
+line-height: 1.1;
+margin-top: 0;
+margin-bottom: 20px;
+}
+
+
 img:hover {
     opacity: .5;
   }
@@ -85,16 +118,6 @@ img:hover {
     margin-bottom: 2em;
  }
   
-  .card {
-    border: 1px solid #000;
-    padding: 0;
-  }
-  
-  .card-image {
-    padding: 0;
-    align-items: center;
-  }
-  
   .img {
     margin: 0 auto;
     width: 120%;
@@ -125,27 +148,6 @@ img:hover {
     background-color: #87CEFA;
     padding: 5em;
   }
-
-  .email {
-    color: #191970;
-    font-weight: bold;
-  }
-
-
-  .card-content span h4 {
-    margin-top: 0;
-    margin-bottom: 0.25em; 
-    color: #191970;
-  }
-  
-  .card-content p {
-    margin-top: 0;
-    margin-bottom: 1em;
-  }
-  
-  .card-content br {
-    display: none;
-  }
   
   .picture-credit {
     font-family: "Inter", sans-serif;
@@ -155,34 +157,5 @@ img:hover {
     margin-top: 5px;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-}
 
-.container {
-  max-width: 700px;
-  width: 100%;
-  padding: 0px; 
-  margin-top: 0px;
-}
-
-.header-image {
-width: 120%;
-display: block;
-margin: 0 auto 0 -10%;
-padding: 0;
-}
-
-p {
-font-family: "Inter", sans-serif;
-font-size: 16px;
-line-height: 1.1;
-margin-top: 0;
-margin-bottom: 20px;
-}
   
